@@ -14,7 +14,7 @@ body {
 }
 
 .content {
-	background-color: #f7f1e3;
+	background-color: #ebe1ca;
 	border: 1px solid #fff;
 	position: relative;
 	padding-bottom: 50px;
@@ -76,32 +76,32 @@ body {
 	text-decoration: underline;
 }
 
-.sidebar .menu .fa-bars {
+.sidebar .menu .bar{
 	display: block;
 }
 
-.sidebar .menu .fa-times {
+.sidebar .menu .close {
 	display: none;
 }
 
-.sidebar.active .menu .fa-bars {
+.sidebar.active .menu .bar{
 	display: none;
 }
 
-.sidebar.active .menu .fa-times {
+.sidebar.active .menu .close {
 	display: block;
 }
 
 .menu {
-	background-color: #7158e2;
-	color: #fff;
+	background-color: #fff;
 	border: none;
 	font-size: 16px;
 	position: absolute;
 	top: 0;
 	right: -30px;
 	height: 30px;
-	width: 30px;
+	width: 35px;
+    /* padding: 10px; */
 }
 
 .menu:focus {
